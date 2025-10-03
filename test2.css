@@ -1,0 +1,79 @@
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+/* Yêu cầu 3: Tạo kiểu cho thẻ body (Họ phông chữ và kích thước phông chữ) */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0; /* Thiết lập lại margin mặc định của trình duyệt */
+    padding: 0; /* Thiết lập lại padding mặc định của trình duyệt */
+}
+
+/* Yêu cầu 4: Tạo kiểu cho thẻ header (Màu nền) */
+header {
+    background-color: #333333; /* Màu xám đậm */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Yêu cầu 5: Tạo kiểu cho thẻ nav (Màu nền) */
+nav {
+    background-color: #007bff; /* Màu xanh dương */
+    padding: 10px 0;
+}
+
+/* Yêu cầu 6: Tạo kiểu cho thẻ main (Màu nền và kích thước phông chữ) */
+main {
+    background-color: #f4f4f4; /* Màu xám nhạt */
+    font-size: 1.1em; /* Lớn hơn kích thước phông chữ body 10% */
+    padding: 20px;
+}
+
+/* Yêu cầu 7: Tạo kiểu cho thẻ footer (Màu nền) */
+footer {
+    background-color: #333333; /* Màu xám đậm */
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Yêu cầu 8: Tạo kiểu cho thẻ li (Thuộc tính hiển thị và chiều rộng) */
+/* Ví dụ tạo danh sách ngang cơ bản */
+li {
+    /* Thay đổi thuộc tính hiển thị: */
+    display: inline-block;
+    /* Thiết lập chiều rộng: */
+    width: 150px;
+    margin-right: 10px;
+    text-align: center; /* Căn giữa nội dung trong li */
+}
+
+/* Yêu cầu 9: Tạo kiểu cho thẻ h1 (Căn chỉnh văn bản, họ phông chữ và màu sắc) */
+h1 {
+    text-align: center; /* Căn giữa */
+    font-family: 'Georgia', serif;
+    color: #cc0000; /* Màu đỏ */
+    padding-bottom: 10px;
+}
+
+/* Yêu cầu 10: Tạo kiểu cho thẻ p (Chiều cao dòng) */
+p {
+    line-height: 1.6; /* Chiều cao dòng 1.6 cho dễ đọc */
+    margin-bottom: 15px;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+/* Các quy tắc bổ sung để làm cho nav bar dễ nhìn hơn (Không bắt buộc) */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
